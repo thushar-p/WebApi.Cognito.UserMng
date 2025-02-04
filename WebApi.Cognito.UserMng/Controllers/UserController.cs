@@ -55,10 +55,10 @@ public class UserController : ControllerBase
         _userAppService.LoginWithOtp(request);
     }
     
-    [HttpPost("otp")]
-    public void LoginWithOtp([FromBody] Login request)
-    {
-        _userAppService.LoginWithOtp(request);
-    }
+    //[HttpPost("otp")]
+    //public void LoginWithOtp([FromBody] Login request)
+    //{
+    //    _userAppService.LoginWithOtp(request);
+    //}
     
 }
